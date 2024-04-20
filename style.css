@@ -1,70 +1,87 @@
 @font-face {
-    font-family: "Norse Bold";
-    src: url(fonts/Norse-Bold.otf);
+  font-family: "Norse Bold";
+  src: url(fonts/Norse-Bold.otf);
 }
 
 body {
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo-side {
-    background-image: url(img/background.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  background-image: url(img/background.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .form-side {
-    flex: 2;
+  background-color: rgb(249, 250, 251);
+  flex: 2;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo-container {
-    margin-top: 160px; 
-    padding: 15px;
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.4);
-    align-items: center;
-    justify-content: center;
+  margin-top: 160px;
+  padding: 15px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
 }
 
-.logo-container img{
-    width: 80px;
-    height: 110px;
+.logo-container img {
+  width: 80px;
+  height: 110px;
 }
 
 #logo-text {
-    font: 6rem "Norse Bold";
-    color: white;
+  font: 6rem "Norse Bold";
+  color: white;
 }
 
 .background-credit {
-    color: white;
-    font-size: 1rem;
-    align-self: center;
-    margin: 20px;
+  color: white;
+  font-size: 1rem;
+  align-self: center;
+  margin: 20px;
 }
 
 .background-credit a:link,
-.background-credit a:visited{
-    color: white;
+.background-credit a:visited {
+  color: white;
 }
 
 .background-credit a:hover {
-    color: lightblue;
+  color: lightblue;
 }
 
 .background-credit a:active {
-    color: red;
+  color: red;
 }
 
 .background-credit a {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#disclaimer {
+  margin-bottom: 0;
+}
+
+#sign-up-text {
+  margin-top: 0;
 }
