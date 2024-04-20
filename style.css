@@ -85,3 +85,13 @@ p {
 #sign-up-text {
   margin-top: 0;
 }
+
+form {
+  height: 50%;
+  border: 2px solid gray;
+}
+
+.fields {
+  border: 2px solid black;
+  height: 70%;
+}
