@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.logo-side {
+    background-image: url(img/background.jpg);
+    flex: 1;
+}
+
+.form-side {
+    flex: 2;
+}
