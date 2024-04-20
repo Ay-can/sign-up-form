@@ -89,9 +89,20 @@ p {
 form {
   height: 50%;
   border: 2px solid gray;
+  background-color: white;
+  padding: 60px;
 }
 
 .fields {
   border: 2px solid black;
   height: 70%;
+}
+
+.disclaimer-container {
+  margin: 80px 40px 40px;
+  width: 60%;
+}
+
+.disclaimer-container > p {
+  font-size: 1.2rem;
 }
