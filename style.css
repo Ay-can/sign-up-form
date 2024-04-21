@@ -88,7 +88,7 @@ p {
 }
 
 form {
-  border: 2px solid gray;
+  box-shadow: rgb(221, 222, 222) 10px 5px 5px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -115,4 +115,28 @@ form {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+button {
+  margin-top: 40px;
+  width: fit-content;
+  background-color: rgb(89, 109, 72);
+  color: white;
+  font-weight: 900;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+}
+
+#login > a:link,
+#login > a:visited {
+  color: rgb(89, 109, 72);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+#login {
+  margin-left: 40px;
+  font-weight: 100;
 }
