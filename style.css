@@ -140,3 +140,17 @@ button {
   margin-left: 40px;
   font-weight: 100;
 }
+
+input {
+  border: 1px solid rgb(229, 231, 235);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline-color: rgb(29, 78, 216);
+}
+
+input:invalid {
+  border-color: red;
+}
