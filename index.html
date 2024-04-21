@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div class="logo-side">
@@ -41,16 +41,35 @@
         <div class="fields">
           <div class="field">
             <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="first-name" />
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder="Kanye"
+              minlength="1"
+              required
+              maxlength="20"
+            />
           </div>
 
           <div class="field">
             <label for="last-name">Last Name</label>
-            <input type="text" id="last-name" name="last-name" />
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              placeholder="West"
+              maxlength="20"
+            />
           </div>
           <div class="field">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="someone@something.com"
+            />
           </div>
           <div class="field">
             <label for="phone">Phone Number</label>
@@ -58,13 +77,14 @@
               type="tel"
               id="phone"
               name="phone"
-              pattern="[0-9]{8}"
-              placeholder="12345678"
+              pattern="[0-9]{9}"
+              placeholder="123456789"
             />
           </div>
           <div class="field">
             <label for="password">Password</label>
-            <input type="password" id="password" name="password" />
+            <input type="password" id="password" name="password" required />
+            <p id="password-error-msg"></p>
           </div>
 
           <div class="field">
@@ -73,6 +93,7 @@
               type="password"
               id="confirm-password"
               name="confirm-password"
+              required
             />
           </div>
         </div>

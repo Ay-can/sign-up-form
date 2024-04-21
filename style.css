@@ -4,7 +4,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   display: flex;
@@ -13,6 +13,7 @@ body {
 }
 
 .logo-side {
+  height: inherit;
   background-image: url(img/background.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -23,6 +24,7 @@ body {
 }
 
 .form-side {
+  height: inherit;
   background-color: rgb(249, 250, 251);
   flex: 2;
   display: flex;
@@ -137,6 +139,7 @@ button {
 }
 
 #login {
+  margin-top: 40px;
   margin-left: 40px;
   font-weight: 100;
 }
@@ -153,4 +156,15 @@ input:focus {
 
 input:invalid {
   border-color: red;
+}
+
+label {
+  margin-bottom: 3px;
+  font-weight: 400;
+}
+
+#password-error-msg {
+  margin-top: 0;
+  font-size: 0.7rem;
+  color: red;
 }
